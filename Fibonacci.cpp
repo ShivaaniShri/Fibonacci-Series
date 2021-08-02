@@ -14,5 +14,5 @@ int Fibonacci_Function_One(int number){
     return 0;
 }
 int main(){
-    Fibonacci_Function_one(10);
+    Fibonacci_Function_One(10);
 }
