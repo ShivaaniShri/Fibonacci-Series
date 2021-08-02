@@ -13,6 +13,22 @@ int Fibonacci_Function_One(int number){
     }
     return 0;
 }
+
+// Fibonacci Series by recursion function method
+
+int Fibonacci_Function_Two(int number){
+    if(number<=1){
+        return number;
+    }
+    return Fibonacci_Function_Two(number-1) + Fibonacci_Function_Two(number-2);
+}
 int main(){
-    Fibonacci_Function_One(10);
+    int value = 10;
+    Fibonacci_Function_One(value);
+    cout<<endl;
+    Fibonacci_Function_Two(value);
+    cout<<endl;
+    for (int i = 0;i<=value;i++){
+        cout<<Fibonacci_Function_Two(i)<<endl;
+    }
 }
