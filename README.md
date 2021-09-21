@@ -1,5 +1,5 @@
 # Fibonacci Series 
 
-The formula : 
+Formula : 
 
 fib(n) = fib(n-1) + fib(n-2)
